@@ -1,0 +1,102 @@
+2015-10-02 11:53:18 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Cake" could not be found.
+Exception Attributes: array (
+  'class' => 'Cake',
+)
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('cake')
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-10-02 11:53:42 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Cake" could not be found.
+Exception Attributes: array (
+  'class' => 'Cake',
+)
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('cake')
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-10-02 11:56:19 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(883): Cake\Database\Connection->schemaCollection()
+#8 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Santo')
+#12 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Santo')
+#13 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(50): Bake\Shell\BakeShell->Bake\Shell\{closure}('Santo', 0)
+#14 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#15 [internal function]: Bake\Shell\BakeShell->all('Santo')
+#16 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(441): call_user_func_array(Array, Array)
+#17 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2015-10-02 12:04:59 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES)
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(883): Cake\Database\Connection->schemaCollection()
+#8 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Santo')
+#12 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Santo')
+#13 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(50): Bake\Shell\BakeShell->Bake\Shell\{closure}('Santo', 0)
+#14 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#15 [internal function]: Bake\Shell\BakeShell->all('Santo')
+#16 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(441): call_user_func_array(Array, Array)
+#17 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2015-10-02 12:07:11 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES)
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(883): Cake\Database\Connection->schemaCollection()
+#8 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Santo')
+#12 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Santo')
+#13 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(50): Bake\Shell\BakeShell->Bake\Shell\{closure}('Santo', 0)
+#14 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#15 [internal function]: Bake\Shell\BakeShell->all('Santo')
+#16 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(441): call_user_func_array(Array, Array)
+#17 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
