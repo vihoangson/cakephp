@@ -9,3 +9,245 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2015-10-05 02:08:24 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:08:31 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:14:06 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:14:32 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:14:46 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:18:09 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:18:13 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:19:06 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:19:10 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:20:04 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:24:32 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:24:34 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:28:23 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:28:24 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:40:46 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:40:50 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:40:58 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:41:01 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:41:05 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:41:46 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:41:49 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-05 02:45:27 Notice: Deprecated (16384): Property $layout is deprecated. Use $this->viewBuilder()->layout() instead in beforeRender(). in [/var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 98
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 597
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

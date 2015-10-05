@@ -100,3 +100,21 @@ Stack Trace:
 #21 {main}
 
 
+2015-10-05 02:09:18 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.news' doesn't exist
+Stack Trace:
+#0 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(95): Cake\Database\Schema\Collection->_reflect('Column', 'news', Array, Object(Cake\Database\Schema\Table))
+#1 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('news', Array)
+#2 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('news')
+#3 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#4 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(284): Cake\ORM\Table->primaryKey()
+#5 /var/www/vhosts/santo/cakephp/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#6 [internal function]: Bake\Shell\Task\TemplateTask->main('News')
+#7 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(447): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#10 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 /var/www/vhosts/santo/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 /var/www/vhosts/santo/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+

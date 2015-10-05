@@ -28,6 +28,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
+    <?= $this->Html->css('../bower_components/bootstrap/dist/css/bootstrap.min.css') ?>
+    <?= $this->Html->css('../bower_components/bootstrap/dist/css/bootstrap-theme.min.css') ?>
+    <?= $this->Html->script('../bower_components/jquery/dist/jquery.min.js') ?>
+    <?= $this->Html->script('../bower_components/bootstrap/dist/js/bootstrap.min.js') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -43,8 +47,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <span><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></span>
         </div>
     </header>
-    <div id="container">
-
+    <div id="containe">
+r
         <div id="content">
             <?= $this->Flash->render() ?>
 
